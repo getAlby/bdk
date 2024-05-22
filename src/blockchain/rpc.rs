@@ -111,7 +111,7 @@ pub struct RpcSyncParams {
 impl Default for RpcSyncParams {
     fn default() -> Self {
         Self {
-            start_script_count: 100,
+            start_script_count: 1,
             start_time: 0,
             force_start_time: false,
             poll_rate_sec: 3,
