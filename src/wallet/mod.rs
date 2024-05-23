@@ -73,7 +73,7 @@ use crate::testutils;
 use crate::types::*;
 use crate::wallet::coin_selection::Excess::{Change, NoChange};
 
-const CACHE_ADDR_BATCH_SIZE: u32 = 100;
+const CACHE_ADDR_BATCH_SIZE: u32 = 1;
 const COINBASE_MATURITY: u32 = 100;
 
 /// A Bitcoin wallet
